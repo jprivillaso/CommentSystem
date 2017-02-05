@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Comment System</title>
+  <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/vendor/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <main class="comments-system col-12 col-md-10">
+    <section class="comments-system-title col-md-12">
+      <h2 class="text-center">Welcome! Choose a topic and comment</h2>
+    </section>
+    <section class="comments-filter-wrapper col-md-12">
+      <select class="comments-filter">
+        <option value="politics">Politics</option>
+        <option value="science">Science</option>
+        <option value="sports">Sports</option>
+      </select>
+    </section>
+    <section class="add-comment-box col-md-12">
+      <i class="fa fa-2x fa-user comment-avatar" aria-hidden="true"></i>
+      <div class="add-comment-wrapper">
+        <textarea placeholder="Insert your comment" rows="4"></textarea>
+        <button class="add-comment-button float-right btn btn-primary">Add Comment</button>
+      </div>
+    </section>
+    <section class="comment-system-list-wrapper col-md-12">
+      <ul class="comments-system-list col-md-12">
+        <li class="comment-box">
+          <div class="comment-box-initial">
+            <i class="fa fa-2x fa-user comment-avatar" aria-hidden="true"></i>
+            <div class="comment-box-content">
+              <p class="comment-box-title"> Juan </p>
+              <p class="comment-box-message"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+              <div class="comment-box-actions">
+                <p>Reply</p>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="comment-box-children">
+            <li class="comment-box">
+              <div class="comment-box-initial">
+                <i class="fa fa-2x fa-user comment-avatar" aria-hidden="true"></i>
+                <div class="comment-box-content">
+                  <p class="comment-box-title"> Alessandra </p>
+                  <p class="comment-box-message"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+                  <div class="comment-box-actions">
+                    <p>Reply</p>
+                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <ul class="comment-box-children">
+                <li class="comment-box">
+                  <div class="comment-box-initial">
+                    <i class="fa fa-2x fa-user comment-avatar" aria-hidden="true"></i>
+                    <div class="comment-box-content">
+                      <p class="comment-box-title"> Marcus </p>
+                      <p class="comment-box-message"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+                      <div class="comment-box-actions">
+                        <p>Reply</p>
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                        <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="comment-box-children"></ul>
+                </li>
+              </ul>
+            </li>
+            <li class="comment-box">
+              <div class="comment-box-initial">
+                <i class="fa fa-2x fa-user comment-avatar" aria-hidden="true"></i>
+                <div class="comment-box-content">
+                  <p class="comment-box-title"> Leo </p>
+                  <p class="comment-box-message"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+                  <div class="comment-box-actions">
+                    <p>Reply</p>
+                    <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                    <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+              <ul class="comment-box-children"></ul>
+            </li>
+          </ul>
+        </li>
+        <li class="comment-box">
+          <div class="comment-box-initial">
+            <i class="fa fa-2x fa-user comment-avatar" aria-hidden="true"></i>
+            <div class="comment-box-content">
+              <p class="comment-box-title"> Peter </p>
+              <p class="comment-box-message"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.  </p>
+              <div class="comment-box-actions">
+                <p>Reply</p>
+                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                <i class="fa fa-thumbs-down" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <ul class="comment-box-children"></ul>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <script src="vendor/js/jquery.min.js"></script>
+  <script src="vendor/js/tether.min.js"></script>
+  <script src="vendor/js/bootstrap.min.js"></script>
+</body>
+</html>
